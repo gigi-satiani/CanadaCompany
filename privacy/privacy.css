@@ -1,0 +1,68 @@
+/* ----------- text area--------- */
+
+.privacy-main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topSectionThree {
+  padding-bottom: 150px;
+  border-bottom: 1px solid #2e2e2e;
+}
+
+.privacy-mainText {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.privacy-textWrapper {
+  width: 100%;
+}
+
+.privacyTextPageArticle {
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: left;
+  padding: 30px;
+}
+
+.privacyArticleHeading {
+  font-size: 20px;
+  padding: 15px;
+}
+
+.articleFigure {
+  width: 100%;
+  text-align: center;
+}
+
+.articleFigure img {
+  width: 70%;
+}
+
+/* ----------- text area aside --------- */
+
+.privacyTextAside {
+  width: 30%;
+}
+
+/* ----------- media query --------- */
+
+@media screen and (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+  }
+  .privacyTextAside,
+  .privacy-mainText,
+  .articleFigure img {
+    width: 100%;
+  }
+  .textPageArticle {
+    padding: 0;
+  }
+}
