@@ -24,7 +24,7 @@ header {
   align-items: center;
   position: fixed;
   z-index: 1000;
-  height: 50px;
+  height: 60px;
 }
 
 /* ----- header search div ----- */
@@ -696,6 +696,24 @@ aside {
   font-size: 100%;
 }
 
+/* -------- pages ---------- */
+
+.pageLinksParent {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.pageLinks {
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.pageLinks a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #142d4c;
+}
 /* -------- media style ---------- */
 
 @media screen and (max-width: 1777px) {
